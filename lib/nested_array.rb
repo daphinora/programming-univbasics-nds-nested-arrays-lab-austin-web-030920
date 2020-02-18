@@ -35,10 +35,10 @@ end
 
 def matrix_lookup(matrix, row, column)
  assembled_matrix = [CONVENTIONAL_PRODUCE, ORGANIC_PRODUCE]
- return assembled_matrix[1][1]
+ return assembled_matrix[row][column]
  
  sorted_matrix = [CONVENTIONAL_PRODUCE.sort, ORGANIC_PRODUCE.sort]
- return sorted_matrix[1][1]
+ return sorted_matrix[row][column]
  
   # Given any matrix (array of arrays), a row index and a column index, 
   # Return the matrix's content at that row and and column
