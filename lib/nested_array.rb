@@ -34,6 +34,8 @@ def sorted_matrix
 end
 
 def matrix_lookup(matrix, row, column)
+ assembled_matrix = [CONVENTIONAL_PRODUCE, ORGANIC_PRODUCE]
+ return assembled_matrix[1][1]
 
  sorted_matrix = [CONVENTIONAL_PRODUCE.sort, ORGANIC_PRODUCE.sort]
  return sorted_matrix[1][1]
