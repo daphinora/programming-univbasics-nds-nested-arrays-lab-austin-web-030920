@@ -46,7 +46,7 @@ end
 
 def matrix_update(matrix, row, column, new_value)
  matrix = [CONVENTIONAL_PRODUCE, ORGANIC_PRODUCE]
- matrix[0][2] = "Lemons"
+ matrix[0][2] = "Onions"
  return matrix
  
   # Given any matrix (array of arrays), a row index and a column index, 
